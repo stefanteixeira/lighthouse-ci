@@ -215,22 +215,22 @@ export const ProjectGraphs = props => {
         builds={builds}
       />
       <StatisticPlot
-        title="PWA"
-        statisticName="category_pwa_average"
+        title="First Contentful Paint"
+        statisticName="audit_first-contentful-paint_average"
         loadingState={loadingState}
         statistics={statsWithBuilds}
         builds={builds}
       />
       <StatisticPlot
-        title="Accessibility"
-        statisticName="category_accessibility_average"
+        title="Time to Interactive"
+        statisticName="audit_interactive_average"
         loadingState={loadingState}
         statistics={statsWithBuilds}
         builds={builds}
       />
       <StatisticPlot
-        title="SEO"
-        statisticName="category_seo_average"
+        title="Speed Index"
+        statisticName="audit_speed-index_average"
         loadingState={loadingState}
         statistics={statsWithBuilds}
         builds={builds}
