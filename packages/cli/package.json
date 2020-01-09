@@ -1,6 +1,6 @@
 {
   "name": "@toptal/lhci-cli",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
@@ -13,7 +13,7 @@
     "lhci": "./src/cli.js"
   },
   "dependencies": {
-    "@toptal/lhci-utils": "0.1.0",
+    "@toptal/lhci-utils": "^0.1.2",
     "chrome-launcher": "^0.12.0",
     "compression": "^1.7.4",
     "express": "^4.17.1",
