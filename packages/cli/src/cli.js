@@ -13,7 +13,7 @@ const {
   loadAndParseRcFile,
   hasOptedOutOfRcDetection,
   findRcFile,
-} = require('@lhci/utils/src/lighthouserc.js');
+} = require('@toptal/lhci-utils/src/lighthouserc.js');
 const assertCmd = require('./assert/assert.js');
 const autorunCmd = require('./autorun/autorun.js');
 const healthcheckCmd = require('./healthcheck/healthcheck.js');

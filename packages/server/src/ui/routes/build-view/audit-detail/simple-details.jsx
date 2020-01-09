@@ -7,7 +7,7 @@
 import {h} from 'preact';
 import {Nbsp} from '../../../components/nbsp';
 import './simple-details.css';
-import {getDiffLabel, getDeltaStats} from '@lhci/utils/src/audit-diff-finder.js';
+import {getDiffLabel, getDeltaStats} from '@toptal/lhci-utils/src/audit-diff-finder.js';
 
 /** @param {{type: LH.DetailsType, baseValue: any, compareValue: any, diff?: LHCI.NumericItemAuditDiff}} props */
 export const SimpleDetails = props => {

@@ -7,10 +7,10 @@
 
 const fs = require('fs');
 const path = require('path');
-const _ = require('@lhci/utils/src/lodash.js');
-const {loadSavedLHRs, saveAssertionResults} = require('@lhci/utils/src/saved-reports.js');
-const {getAllAssertionResults} = require('@lhci/utils/src/assertions.js');
-const {convertBudgetsToAssertions} = require('@lhci/utils/src/budgets-converter.js');
+const _ = require('@toptal/lhci-utils/src/lodash.js');
+const {loadSavedLHRs, saveAssertionResults} = require('@toptal/lhci-utils/src/saved-reports.js');
+const {getAllAssertionResults} = require('@toptal/lhci-utils/src/assertions.js');
+const {convertBudgetsToAssertions} = require('@toptal/lhci-utils/src/budgets-converter.js');
 const log = require('lighthouse-logger');
 
 /**

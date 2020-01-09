@@ -8,12 +8,12 @@
 const fs = require('fs');
 const path = require('path');
 const childProcess = require('child_process');
-const _ = require('@lhci/utils/src/lodash.js');
+const _ = require('@toptal/lhci-utils/src/lodash.js');
 const {
   loadRcFile,
   flattenRcToConfig,
   resolveRcFilePath,
-} = require('@lhci/utils/src/lighthouserc.js');
+} = require('@toptal/lhci-utils/src/lighthouserc.js');
 
 const BUILD_DIR_PRIORITY = [
   // explicitly a dist version of the site, highly likely to be production assets

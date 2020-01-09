@@ -7,7 +7,7 @@
 import {h} from 'preact';
 import clsx from 'clsx';
 
-import * as _ from '@lhci/utils/src/lodash.js';
+import * as _ from '@toptal/lhci-utils/src/lodash.js';
 import './pwa-gauge.css';
 
 // For SVG to function properly, we need to use the real attribtues that preact doesn't set.
@@ -15,7 +15,7 @@ import './pwa-gauge.css';
 
 /** @typedef {{optimized: boolean, installable: boolean, fastAndReliable: boolean}} PWABadgeStatus */
 
-/** @param {{deltaType: import('@lhci/utils/src/audit-diff-finder').DiffLabel}} props */
+/** @param {{deltaType: import('@toptal/lhci-utils/src/audit-diff-finder').DiffLabel}} props */
 export const FastReliableIcon = props => {
   return (
     <svg
@@ -34,7 +34,7 @@ export const FastReliableIcon = props => {
   );
 };
 
-/** @param {{deltaType: import('@lhci/utils/src/audit-diff-finder').DiffLabel}} props */
+/** @param {{deltaType: import('@toptal/lhci-utils/src/audit-diff-finder').DiffLabel}} props */
 export const InstallableIcon = props => {
   return (
     <svg
@@ -53,7 +53,7 @@ export const InstallableIcon = props => {
   );
 };
 
-/** @param {{deltaType: import('@lhci/utils/src/audit-diff-finder').DiffLabel}} props */
+/** @param {{deltaType: import('@toptal/lhci-utils/src/audit-diff-finder').DiffLabel}} props */
 export const OptimizedIcon = props => {
   return (
     <svg
@@ -78,7 +78,7 @@ export const OptimizedIcon = props => {
  * @param {PWABadgeStatus} base
  * @param {PWABadgeStatus} compare
  * @param {keyof PWABadgeStatus} key
- * @return {import('@lhci/utils/src/audit-diff-finder').DiffLabel}
+ * @return {import('@toptal/lhci-utils/src/audit-diff-finder').DiffLabel}
  */
 export function getBadgeDiffType(base, compare, key) {
   if (base[key] === compare[key]) return 'neutral';

@@ -6,7 +6,7 @@
 
 import {h} from 'preact';
 import {route} from 'preact-router';
-import _ from '@lhci/utils/src/lodash.js';
+import _ from '@toptal/lhci-utils/src/lodash.js';
 import {useProjectBuilds, useProjectBySlug} from '../../hooks/use-api-data';
 import {AsyncLoader, combineLoadingStates, combineAsyncData} from '../../components/async-loader';
 import {ProjectGettingStarted} from './getting-started.jsx';

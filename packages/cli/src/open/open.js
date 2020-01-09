@@ -8,9 +8,9 @@
 const fs = require('fs');
 const tmp = require('tmp');
 const open = require('open');
-const _ = require('@lhci/utils/src/lodash.js');
-const {computeRepresentativeRuns} = require('@lhci/utils/src/representative-runs.js');
-const {loadSavedLHRs, getHTMLReportForLHR} = require('@lhci/utils/src/saved-reports.js');
+const _ = require('@toptal/lhci-utils/src/lodash.js');
+const {computeRepresentativeRuns} = require('@toptal/lhci-utils/src/representative-runs.js');
+const {loadSavedLHRs, getHTMLReportForLHR} = require('@toptal/lhci-utils/src/saved-reports.js');
 
 /**
  * @param {import('yargs').Argv} yargs

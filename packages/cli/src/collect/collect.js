@@ -10,11 +10,11 @@ const ChromeLauncher = require('chrome-launcher').Launcher;
 const FallbackServer = require('./fallback-server.js');
 const LighthouseRunner = require('./lighthouse-runner.js');
 const PuppeteerManager = require('./puppeteer-manager.js');
-const {saveLHR, clearSavedLHRs} = require('@lhci/utils/src/saved-reports.js');
+const {saveLHR, clearSavedLHRs} = require('@toptal/lhci-utils/src/saved-reports.js');
 const {
   runCommandAndWaitForPattern,
   killProcessTree,
-} = require('@lhci/utils/src/child-process-helper.js');
+} = require('@toptal/lhci-utils/src/child-process-helper.js');
 
 /**
  * @param {import('yargs').Argv} yargs

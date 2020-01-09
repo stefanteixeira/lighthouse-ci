@@ -5,7 +5,7 @@
  */
 
 import {h, Fragment} from 'preact';
-import {getDeltaLabel} from '@lhci/utils/src/audit-diff-finder';
+import {getDeltaLabel} from '@toptal/lhci-utils/src/audit-diff-finder';
 import clsx from 'clsx';
 import {Nbsp} from '../../../components/nbsp';
 import './numeric-diff.css';

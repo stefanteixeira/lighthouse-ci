@@ -4,11 +4,11 @@
  * Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
  */
 
-import * as _ from '@lhci/utils/src/lodash';
+import * as _ from '@toptal/lhci-utils/src/lodash';
 import {h, Fragment} from 'preact';
 import {ScoreWord} from '../../../components/score-icon';
 import {NumericDiff} from './numeric-diff';
-import {getDiffLabel, getRowLabelForIndex} from '@lhci/utils/src/audit-diff-finder';
+import {getDiffLabel, getRowLabelForIndex} from '@toptal/lhci-utils/src/audit-diff-finder';
 import clsx from 'clsx';
 
 /** @type {Record<string, string>} */
@@ -75,7 +75,7 @@ const DisplayValueDiff = props => {
   );
 };
 
-/** @param {import('@lhci/utils/src/audit-diff-finder').RowLabel} rowLabel @return {'regression'|'improvement'|'neutral'} */
+/** @param {import('@toptal/lhci-utils/src/audit-diff-finder').RowLabel} rowLabel @return {'regression'|'improvement'|'neutral'} */
 function getDiffLabelForRowLabel(rowLabel) {
   switch (rowLabel) {
     case 'added':

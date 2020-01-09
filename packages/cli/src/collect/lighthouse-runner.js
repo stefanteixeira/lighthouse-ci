@@ -9,7 +9,7 @@ const os = require('os');
 const fs = require('fs');
 const path = require('path');
 const childProcess = require('child_process');
-const {getSavedReportsDirectory} = require('@lhci/utils/src/saved-reports.js');
+const {getSavedReportsDirectory} = require('@toptal/lhci-utils/src/saved-reports.js');
 
 const LH_CLI_PATH = path.join(require.resolve('lighthouse'), '../../lighthouse-cli/index.js');
 

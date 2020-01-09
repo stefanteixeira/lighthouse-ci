@@ -5,7 +5,7 @@
  */
 
 import {h, Fragment} from 'preact';
-import _ from '@lhci/utils/src/lodash';
+import _ from '@toptal/lhci-utils/src/lodash';
 import {useState, useMemo, useCallback, useEffect} from 'preact/hooks';
 import {AsyncLoader, combineLoadingStates, combineAsyncData} from '../../components/async-loader';
 import {Dropdown} from '../../components/dropdown';
@@ -26,7 +26,7 @@ import {AuditGroup} from './audit-list/audit-group';
 import './build-view.css';
 import {BuildViewLegend} from './build-view-legend';
 import clsx from 'clsx';
-import {findAuditDiffs, getDiffSeverity} from '@lhci/utils/src/audit-diff-finder';
+import {findAuditDiffs, getDiffSeverity} from '@toptal/lhci-utils/src/audit-diff-finder';
 import {route, Link} from 'preact-router';
 import {BuildViewWarnings} from './build-view-warnings';
 import {DocumentTitle} from '../../components/document-title';

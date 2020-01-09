@@ -11,7 +11,7 @@ import {Markdown} from '../../../components/markdown';
 import {TableDetails} from './table-details';
 import {NumericDiff} from '../audit-list/numeric-diff';
 import {ItemDiff} from '../audit-list/audit-diff';
-import {getDiffLabel} from '@lhci/utils/src/audit-diff-finder';
+import {getDiffLabel} from '@toptal/lhci-utils/src/audit-diff-finder';
 
 /** @param {{pair: LHCI.AuditPair, diff: LHCI.AuditDiff}} props */
 const ScoreOnlyDetails = props => {

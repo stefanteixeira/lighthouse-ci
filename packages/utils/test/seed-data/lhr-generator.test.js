@@ -7,8 +7,8 @@
 
 /* eslint-env jest */
 
-const PRandom = require('@lhci/utils/src/seed-data/prandom.js');
-const {createLHR, generateNumericValue} = require('@lhci/utils/src/seed-data/lhr-generator.js');
+const PRandom = require('@toptal/lhci-utils/src/seed-data/prandom.js');
+const {createLHR, generateNumericValue} = require('@toptal/lhci-utils/src/seed-data/lhr-generator.js');
 
 describe('createLHR', () => {
   it('should create the correct shape', () => {

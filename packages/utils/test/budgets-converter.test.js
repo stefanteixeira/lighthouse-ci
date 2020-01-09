@@ -10,7 +10,7 @@
 const {
   convertPathExpressionToRegExp,
   convertBudgetsToAssertions,
-} = require('@lhci/utils/src/budgets-converter.js');
+} = require('@toptal/lhci-utils/src/budgets-converter.js');
 
 describe('convertPathExpressionToRegExp', () => {
   const pathMatch = (path, pattern) => {

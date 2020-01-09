@@ -7,15 +7,15 @@
 
 const URL = require('url').URL;
 const fetch = require('isomorphic-fetch');
-const _ = require('@lhci/utils/src/lodash.js');
-const ApiClient = require('@lhci/utils/src/api-client.js');
-const {computeRepresentativeRuns} = require('@lhci/utils/src/representative-runs.js');
+const _ = require('@toptal/lhci-utils/src/lodash.js');
+const ApiClient = require('@toptal/lhci-utils/src/api-client.js');
+const {computeRepresentativeRuns} = require('@toptal/lhci-utils/src/representative-runs.js');
 const {
   loadSavedLHRs,
   loadAssertionResults,
   replaceUrlPatterns,
   getHTMLReportForLHR,
-} = require('@lhci/utils/src/saved-reports.js');
+} = require('@toptal/lhci-utils/src/saved-reports.js');
 const {
   getCurrentHash,
   getCommitTime,
@@ -27,7 +27,7 @@ const {
   getAncestorHashForMaster,
   getAncestorHashForBranch,
   getGitHubRepoSlug,
-} = require('@lhci/utils/src/build-context.js');
+} = require('@toptal/lhci-utils/src/build-context.js');
 
 /** @param {string} message */
 const print = message => {

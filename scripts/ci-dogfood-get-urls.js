@@ -5,8 +5,8 @@
  */
 'use strict';
 
-const _ = require('@lhci/utils/src/lodash.js');
-const ApiClient = require('@lhci/utils/src/api-client.js');
+const _ = require('@toptal/lhci-utils/src/lodash.js');
+const ApiClient = require('@toptal/lhci-utils/src/api-client.js');
 
 async function main() {
   const rootURL = process.env.LHCI_ROOT_URL;

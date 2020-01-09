@@ -6,7 +6,7 @@
 
 import {h, Fragment} from 'preact';
 import clsx from 'clsx';
-import * as _ from '@lhci/utils/src/lodash.js';
+import * as _ from '@toptal/lhci-utils/src/lodash.js';
 import './build-hash-selector.css';
 import {useBranchBuilds} from '../../hooks/use-api-data';
 import {AsyncLoader, combineLoadingStates, combineAsyncData} from '../../components/async-loader';

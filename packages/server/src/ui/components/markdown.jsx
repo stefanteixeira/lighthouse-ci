@@ -5,7 +5,7 @@
  */
 
 import {h, Fragment} from 'preact';
-import {splitMarkdownLink} from '@lhci/utils/src/markdown.js';
+import {splitMarkdownLink} from '@toptal/lhci-utils/src/markdown.js';
 
 /** @param {{text: string}} props */
 export const Markdown = props => {

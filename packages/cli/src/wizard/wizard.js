@@ -6,7 +6,7 @@
 'use strict';
 
 const inquirer = require('inquirer');
-const ApiClient = require('@lhci/utils/src/api-client.js');
+const ApiClient = require('@toptal/lhci-utils/src/api-client.js');
 const log = require('lighthouse-logger');
 
 /**

@@ -7,7 +7,7 @@
 import {h} from 'preact';
 import clsx from 'clsx';
 import './gauge.css';
-import {getDiffLabel} from '@lhci/utils/src/audit-diff-finder';
+import {getDiffLabel} from '@toptal/lhci-utils/src/audit-diff-finder';
 
 /** @param {{className?: string, score: number, diff?: LHCI.NumericAuditDiff}} props */
 export const Gauge = props => {

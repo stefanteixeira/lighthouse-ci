@@ -17,7 +17,7 @@ import {
   OptimizedIcon,
   getBadgeDiffType,
 } from '../../components/pwa-gauge';
-import {getDiffLabel} from '@lhci/utils/src/audit-diff-finder';
+import {getDiffLabel} from '@toptal/lhci-utils/src/audit-diff-finder';
 
 /** @param {number} score */
 const renderScore = score => Math.round(score * 100);

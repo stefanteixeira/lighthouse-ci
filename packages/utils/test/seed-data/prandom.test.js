@@ -7,7 +7,7 @@
 
 /* eslint-env jest */
 
-const PRandom = require('@lhci/utils/src/seed-data/prandom.js');
+const PRandom = require('@toptal/lhci-utils/src/seed-data/prandom.js');
 
 describe('PRandom', () => {
   it('should generate deterministic numbers', () => {

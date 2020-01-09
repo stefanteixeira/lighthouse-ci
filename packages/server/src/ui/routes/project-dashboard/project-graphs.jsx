@@ -6,7 +6,7 @@
 
 import {h} from 'preact';
 import {useMemo} from 'preact/hooks';
-import _ from '@lhci/utils/src/lodash.js';
+import _ from '@toptal/lhci-utils/src/lodash.js';
 import {useBuildStatistics} from '../../hooks/use-api-data';
 import {AsyncLoader} from '../../components/async-loader';
 import {Paper} from '../../components/paper.jsx';

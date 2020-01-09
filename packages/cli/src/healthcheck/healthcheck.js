@@ -6,15 +6,15 @@
 'use strict';
 
 const ChromeLauncher = require('chrome-launcher').Launcher;
-const ApiClient = require('@lhci/utils/src/api-client.js');
-const {loadAndParseRcFile, resolveRcFilePath} = require('@lhci/utils/src/lighthouserc.js');
+const ApiClient = require('@toptal/lhci-utils/src/api-client.js');
+const {loadAndParseRcFile, resolveRcFilePath} = require('@toptal/lhci-utils/src/lighthouserc.js');
 const {
   getCurrentHash,
   getAncestorHash,
   getCurrentBranch,
   getGitHubRepoSlug,
-} = require('@lhci/utils/src/build-context.js');
-const {loadSavedLHRs} = require('@lhci/utils/src/saved-reports.js');
+} = require('@toptal/lhci-utils/src/build-context.js');
+const {loadSavedLHRs} = require('@toptal/lhci-utils/src/saved-reports.js');
 
 const PASS_ICON = '✅';
 const WARN_ICON = '⚠️ ';

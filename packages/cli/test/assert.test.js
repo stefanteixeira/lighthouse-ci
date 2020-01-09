@@ -12,7 +12,7 @@ jest.retryTimes(3);
 const fs = require('fs');
 const path = require('path');
 const rimraf = require('rimraf');
-const fullPreset = require('@lhci/utils/src/presets/all.js');
+const fullPreset = require('@toptal/lhci-utils/src/presets/all.js');
 const {runCLI} = require('./test-utils.js');
 
 describe('Lighthouse CI assert CLI', () => {

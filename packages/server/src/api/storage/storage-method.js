@@ -5,9 +5,9 @@
  */
 'use strict';
 
-const _ = require('@lhci/utils/src/lodash.js');
-const PRandom = require('@lhci/utils/src/seed-data/prandom.js');
-const {computeRepresentativeRuns} = require('@lhci/utils/src/representative-runs.js');
+const _ = require('@toptal/lhci-utils/src/lodash.js');
+const PRandom = require('@toptal/lhci-utils/src/seed-data/prandom.js');
+const {computeRepresentativeRuns} = require('@toptal/lhci-utils/src/representative-runs.js');
 const {
   definitions: statisticDefinitions,
   VERSION: STATISTIC_VERSION,
@@ -289,7 +289,7 @@ class StorageMethod {
 
   /**
    * @param {string} base
-   * @param {{randomLength?: number, maxLength?: number, prandom?: import('@lhci/utils/src/seed-data/prandom')}} [options]
+   * @param {{randomLength?: number, maxLength?: number, prandom?: import('@toptal/lhci-utils/src/seed-data/prandom')}} [options]
    */
   static generateSlug(base, options = {}) {
     const {maxLength = 40, randomLength = 0, prandom} = options;

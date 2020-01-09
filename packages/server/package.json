@@ -1,11 +1,11 @@
 {
-  "name": "@lhci/server",
+  "name": "@toptal/lhci-server",
   "main": "./src/server.js",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/GoogleChrome/lighthouse-ci.git"
+    "url": "https://github.com/stefanteixeira/lighthouse-ci.git"
   },
   "publishConfig": {
     "access": "public"
@@ -17,7 +17,7 @@
     "build:source-map-explorer": "npm run clean && npm run build && ../../scripts/source-map-explorer.sh"
   },
   "dependencies": {
-    "@lhci/utils": "0.1.0",
+    "@toptal/lhci-utils": "0.1.0",
     "body-parser": "^1.18.3",
     "compression": "^1.7.4",
     "express": "^4.16.4",

@@ -12,8 +12,8 @@ const path = require('path');
 const puppeteer = require('puppeteer');
 const {configureToMatchImageSnapshot} = require('jest-image-snapshot');
 const {createTestServer} = require('../../test-utils.js');
-const ApiClient = require('@lhci/utils/src/api-client.js');
-const {writeSeedDataToApi} = require('@lhci/utils/src/seed-data/seed-data.js');
+const ApiClient = require('@toptal/lhci-utils/src/api-client.js');
+const {writeSeedDataToApi} = require('@toptal/lhci-utils/src/seed-data/seed-data.js');
 
 const SEED_DATA_PATH = path.join(__dirname, '../../fixtures/seed-data.json');
 

@@ -11,7 +11,7 @@ import {
   zipBaseAndCompareItems,
   sortZippedBaseAndCompareItems,
   getRowLabelForIndex,
-} from '@lhci/utils/src/audit-diff-finder';
+} from '@toptal/lhci-utils/src/audit-diff-finder';
 
 /** @param {LH.DetailsType} itemType @return {boolean} */
 function isNumericValueType(itemType) {
